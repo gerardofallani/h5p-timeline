@@ -5,71 +5,71 @@
       "fields":[
         {
           "label":"Intestazione",
-          "description":"L'intestazione principale della timeline va qui (prima pagina)"
+          "description":"Intestazione principale per la prima pagina"
         },
         {
-          "label":"Testo del corpo",
-          "description":"Il corpo principale della timeline va qui (prima pagina)."
+          "label":"Testo",
+          "description":"Testo in prima pagina."
         },
         {
           "label":"Livello di zoom predefinito",
           "default":"0",
-          "description":"Questo modifica il livello di zoom predefinito. Equivale a premere il tasto zoom-in o zoom-out il numero di volte specificato. I numeri negativi indicano i valori di zoom-out. Il valore di default è 0."
+          "description":"Modifica il livello di zoom predefinito. Equivale a premere il tasto zoom-in o zoom-out il numero di volte specificato. I numeri negativi indicano i valori di zoom-out. Il valore di default è 0."
         },
         {
-          "label":"Background image",
-          "description":"An image to display as background."
+          "label":"Immagine di sfondo",
+          "description":"Immagine da mostrare come sfondo."
         },
         {
-          "label":"Height",
-          "description":"The height in pixels"
+          "label":"Altezza",
+          "description":"Altezza in pixel"
         },
         {
           "label":"Risorsa",
-          "description":"Qui è possibile aggiungere una risorsa alla tua timeline \"prima pagina\"",
+          "description":"Da qui puoi aggiungere una risorsa alla tua timeline \"prima pagina\"",
           "fields":[
             {
               "label":"Media",
-              "description":"URL media (Twitter, YouTube, Flickr, Vimeo, Google Maps e SoundCloud sono correttamente supportati)"
+              "description":"URL media (Twitter, YouTube, Vimeo, Flickr, Wikipedia, Google Maps e SoundCloud sono correttamente supportati)"
             },
             {
-              "label":"Reputazione",
-              "description":"Reputazione sui media"
+              "label":"Crediti",
+              "description":"Attribuzione del credito all'autore"
             },
             {
               "label":"Didascalia",
-              "description":"Qui descrizione didascalia"
+              "description":"Testo della didascalia che descrive la risorsa"
             }
           ]
         },
         {
           "label":"Date",
-          "description":"Aggiungi le tue date alla timeline!",
+          "description":"Aggiungi le date alla timeline",
           "field":{
             "label":"Date",
             "description":"Data",
             "fields":[
               {
-                "label":"Inizio data",
-                "description":"YYYY,MM,DD (YYYY minimo richiesto)",
+                "label":"Data inizio",
+                "description":"AAAA,MM,GG (AAAA è il minimo richiesto)",
                 "regexp":{
                   
                 }
               },
               {
-                "label":"Fine data",
-                "description":"YYYY,MM,DD (YYYY minimo richiesto)",
+                "label":"Data finale",
+                "description":"AAAA,MM,GG (AAAA è il minimo richiesto)",
                 "regexp":{
                   
                 }
               },
               {
-                "label":"Titolo",
-                "description":"Titolo data d'ingresso"
+                "label":"Intestazione",
+                "description":"Titolo per questa data (evento)"
               },
               {
-                "label":"Testo del corpo",
-                "description":"Corpo della data d'ingresso"
+                "label":"Corpo del testo",
+                "description":"Testo per questa data (evento)"
               },
               {
                 "label":"Tags",
@@ -81,19 +81,19 @@
                 "fields":[
                   {
                     "label":"Media",
-                    "description":"URL media (Twitter, YouTube, Flickr, Vimeo, Wikipedia, Google Maps e SoundCloud sono correttamente supportati)."
+                    "description":"URL media (Twitter, YouTube, Vimeo, Flickr, Wikipedia, Google Maps e SoundCloud sono correttamente supportati)."
                   },
                   {
-                    "label":"immagine in miniatura",
+                    "label":"Immagine in miniatura",
                     "description":"Aggiungere un'immagine in miniatura se necessario, 32x32 px"
                   },
                   {
-                    "label":"Reputazione",
-                    "description":"Reputazione sui media"
+                    "label":"Crediti",
+                    "description":"Attribuzione del credito all'autore"
                   },
                   {
                     "label":"Didascalia",
-                    "description":"Testo della didascalia"
+                    "description":"Testo della didascalia che descrive la risorsa"
                   }
                 ]
               }
@@ -108,26 +108,26 @@
             "description":"",
             "fields":[
               {
-                "label":"Data inizio",
-                "description":"YYYY,MM,DD (YYYY minimo richiesto)",
+                "label":"Data iniziale",
+                "description":"AAAA,MM,GG (AAAA è il minimo richiesto)",
                 "regexp":{
                   
                 }
               },
               {
-                "label":"Data fine",
-                "description":"YYYY,MM,DD (YYYY minimo richiesto)",
+                "label":"Data finale",
+                "description":"AAAA,MM,GG (AAAA è il minimo richiesto)",
                 "regexp":{
                   
                 }
               },
               {
-                "label":"Intstazione",
+                "label":"Intestazione",
                 "description":"Intestazione epoca"
               },
               {
-                "label":"Testo",
-                "description":"Corpo dell'epoca"
+                "label":"Corpo del testo",
+                "description":"Testo per questa epoca"
               },
               {
                 "label":"Tag",
